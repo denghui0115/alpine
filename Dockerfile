@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-ENV LANG=C.UTF-8
+ENV LANG=zh_CN.UTF-8
 
 RUN apk update && apk add ca-certificates && \ 
     apk add tzdata && \ 

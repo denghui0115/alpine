@@ -8,4 +8,3 @@ RUN echo -e "https://mirrors.aliyun.com/alpine/v3.7/main\n\
     ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone
     
-    
